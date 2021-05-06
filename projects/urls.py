@@ -10,7 +10,7 @@ app_name = 'project'
 
 urlpatterns = [
     path('', ProjectList.as_view(), name='listproject'),
-    path('project/<str:pk>/', ProjectDetail.as_view(), name='detailproject'),
+    path('<str:pk>', ProjectDetail.as_view(), name='detailproject'),
     path('create/', ProjectCreate.as_view(), name='createproject'),
     path('edit/<int:pk>/', ProjectEdit.as_view(), name='editproject'),
     path('delete/<int:pk>/', ProjectDelete.as_view(), name='deleteproject'),
