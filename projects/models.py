@@ -30,6 +30,7 @@ class Project(models.Model):
     )
     objects = models.Manager()
     tags = ArrayField(models.CharField(max_length=200), blank=True)
+    featured = models.BooleanField(default=False)
 
     class Meta:
         ordering = ('-documented',)
