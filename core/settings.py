@@ -65,7 +65,8 @@ CORS_ORIGIN_ALLOW_ALL = False
 
 CORS_ORIGIN_WHITELIST = (
     'http://localhost:8000',
-    
+    'https://www.malcolmsage.com/',
+    'www.malcolmsage.com'
 )
 
 ROOT_URLCONF = 'core.urls'
@@ -180,7 +181,9 @@ REST_FRAMEWORK = {
 
 CORS_ALLOWED_ORIGINS = [
     "http://127.0.0.1:3000",
-    "http://localhost:3000"
+    "http://localhost:3000",
+    'https://www.malcolmsage.com/',
+    'www.malcolmsage.com'
 ]
 
 SIMPLE_JWT = {
