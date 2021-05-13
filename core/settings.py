@@ -32,7 +32,7 @@ SECRET_KEY = env("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['serene-sea-19868.herokuapp.com', '0.0.0.0']
+ALLOWED_HOSTS = ['msage-projects.herokuapp.com', '0.0.0.0']
 
 
 # Application definition
