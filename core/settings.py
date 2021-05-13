@@ -96,11 +96,11 @@ SECRET_KEY = env("SECRET_KEY")
 DATABASES = {
     'default': {
         'ENGINE': "django.db.backends.postgresql_psycopg2",
-        'NAME': env("DATABASE_NAME"),
-        'USER': env("DATABASE_USER"),
-        'PASSWORD': env("DATABASE_PASSWORD"),
-        'HOST': env("DATABASE_HOST"),
-        'PORT': env("DATABASE_PORT"),
+        'NAME': 'db9mo9uglvrqko',
+        'USER': 'jalfoiavrnrzdk',
+        'PASSWORD': '0cc0a9c9d4f05aa8aad39df6b50a0cb0418c3e647b7e5a6567bb6c77fbb69e5f',
+        'HOST': 'ec2-3-223-72-172.compute-1.amazonaws.com',
+        'PORT': 5432,
     }
 }
 
